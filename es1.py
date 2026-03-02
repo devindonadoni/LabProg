@@ -21,8 +21,7 @@ def pariDispari():
 def checkLetter(parola, lettera):
     count = 0
     for i in parola:
-        if parola[i] == lettera: count += 1
-
+        if i == lettera: count += 1 
     print(count)
 
 def checkPrimo():
@@ -75,12 +74,3 @@ def vocali():
             count += 1
 
     print(count)
-
-
-# orarioConverter(600)
-# quadratoECubo()
-# pariDispari()
-# checkLetter("edoaodo", "o")
-# checkPrimo()
-
-checkTriangle()
