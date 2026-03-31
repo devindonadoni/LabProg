@@ -29,7 +29,6 @@ def es4(file):
     for word in file.read().replace("?", ".").replace("!", ".").strip().split("."):
         print(F"NUOVA FRASE: {word}")
 
-f = open("file.txt", "r")
-#print(countWords("ciao", f))
-print(es4(f))
-f.close()
+with open("file.txt", 'r') as f:
+    #print(countWords("caco",f))
+    print(es4(f))
